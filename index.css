@@ -107,3 +107,7 @@ body {
     color: black;
     text-decoration: none;
 }
+
+.icon-links a:hover {
+    color: #555; /* Optional: Darker gray for hover effect */
+}
