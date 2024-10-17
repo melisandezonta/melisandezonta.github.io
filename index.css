@@ -96,26 +96,14 @@ body {
     font-weight: bold;
 }
 
-/* Flexbox for aligning paper title and icons */
-.publication-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Ensures even space distribution */
-    gap: 10px;
-}
-
-.publication-item .title {
-    flex-grow: 1; /* Makes the title take up remaining space */
-    margin: 0; /* Removes any default margin */
+/* Aligning paper title and icons */
+.icon-links {
+    display: inline-block;
+    margin-left: 10px; /* Provides space between title and icons */
 }
 
 .icon-links a {
-    margin-left: 10px; /* Spacing between icons */
-    color: #000;
+    margin-left: 8px; /* Spacing between icons */
+    color: black;
     text-decoration: none;
 }
-
-.icon-links a:hover {
-    color: var(--secondary-color); /* Adds hover effect */
-}
-``
