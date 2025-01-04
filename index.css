@@ -117,3 +117,9 @@ body {
     fill: black !important;
     color: black !important;
 }
+
+.award-nomination {
+    font-style: italic;
+    margin-bottom: 0.5em;
+    display: block;
+}
